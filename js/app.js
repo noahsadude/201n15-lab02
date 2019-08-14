@@ -14,7 +14,7 @@ console.log('Beginning first question');
     while (guessCurrentHour === ''){
       guessCurrentHour = prompt('What hour of the day is it? I read that it is hour '+findCurrentHour);
       guessCurrentHour = guessCurrentHour.toLowerCase();
-      if(guessCurrentHour === 'y'|| guessCurrentHour === 'yes'||guessCurrentHour === 'true'){
+      if(guessCurrentHour === 'y'|| guessCurrentHour === 'yes'|| guessCurrentHour === 'true'){
         alert('Good! Otherwise we would have a problem');
         countOfTrues = countOfTrues + 1;
       } else if(guessCurrentHour === 'n'|| guessCurrentHour === 'no'|| guessCurrentHour === 'false'){
@@ -86,7 +86,7 @@ console.log('Beginning fifth question');
   while (outOfIdeas === ''){
     outOfIdeas = prompt('Whoo?');
     outOfIdeas = outOfIdeas.toLowerCase();
-    if(outOfIdeas === 'whoo!'|| outOfIdeas === 'yes'||outOfIdeas === 'true' || outOfIdeas === 'y'){
+    if(outOfIdeas === 'whoo'|| outOfIdeas === 'yes'||outOfIdeas === 'true' || outOfIdeas === 'y'){
       alert('Whoo!');
       countOfTrues = countOfTrues + 1;
     } else if(outOfIdeas === 'boo'|| outOfIdeas === 'no'|| outOfIdeas === 'false' || outOfIdeas === 'false'){
