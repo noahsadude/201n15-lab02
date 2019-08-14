@@ -1,7 +1,3 @@
-body{
-  background:whitesmoke;  
-}
-
 @font-face {
   font-family: 'futuralight';
   src: url('futura_light_font-webfont.woff2') format('woff2'),
@@ -9,4 +5,17 @@ body{
   font-weight: normal;
   font-style: normal;
 
+}
+
+body{
+  background:whitesmoke;  
+}
+
+h1{
+  font-family: 'futuralight';
+  font-size: 1em;
+}
+p{
+  font-family: 'futuralight';
+  font-size: .5em;
 }
