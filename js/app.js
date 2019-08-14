@@ -99,10 +99,10 @@ console.log('Beginning fifth question');
       outOfIdeas = '';
     }
   }
-  Document.write(
+  document.write(
     '<p> number of true entries: '+countOfTrues+'</p>'+
     '<p> number of false entries: '+countOfFalses+'</p>'+
-    '<p> number of invalid entries: '+countOfTrues+'</p>'
+    '<p> number of invalid entries: '+countOfFails+'</p>'
   )
 }
 fiveQuestions();
